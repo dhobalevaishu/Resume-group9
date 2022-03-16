@@ -1,0 +1,206 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Dancing+Script:wght@400;700&family=Fira+Sans:wght@300&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=Nunito&family=Open+Sans&family=Oswald&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@300;500;900&family=Source+Sans+Pro:wght@300;400&family=Ubuntu&family=Yellowtail&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 820px;
+  margin: auto;
+  box-shadow: 0px 0px 7px 2px #ad9a6f;
+  line-height: 22px;
+  font-family:PT serif;
+  font-size: 14.4px;
+  display: grid;
+  grid-template-columns: 35% 1fr;
+  column-gap: 40px;
+  background-color: #f1f2f4;
+}
+.name{
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-size: 40px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+.post{
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+  /* font-weight: bold; */
+}
+.phone,.email,.website,.location{
+  display: grid;
+  grid-template-columns: 20% 1fr;
+}
+.second-div{
+  margin-right: 60px;
+}
+.second-two{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.first-one{
+  background-color: #fcd85e;
+  border-top: 5px solid black;
+  padding: 30px 60px;
+}
+.first-three{
+  background-color: #3a393e;
+  color: #f1f2f4;
+}
+.img{
+  width: 162px;
+  height: 158px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+.img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.contact{
+  padding-left: 60px;
+}
+.hobbies{
+  padding-left: 60px;
+}
+.bold{
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  margin-bottom: 5px;
+}
+.edu1,.edu2{
+  margin-bottom: 15px;
+}
+.second-div hr,.balck-hr{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 1px solid black;
+}
+.balck-hr{
+  border: 1px solid #f1f2f4;
+}
+.progresbar{
+  width: 100%;
+  height: 6px;
+  background-color: rgb(160, 158, 158);
+  margin-bottom: 10px;
+}
+.fill{
+  background-color: #393a3c;
+  height: 100%;
+}
+.fill1{
+  width: 60%;
+}
+.fill2{
+  width: 70%;
+}
+.fill3{
+  width: 80%;
+}
+.fill4{
+  width: 60%;
+}
+.fill5{
+  width: 90%;
+}
+.fill6{
+  width: 80%;
+}
+.skill-name{
+  margin-bottom: 4px;
+}
+h3{
+  margin-bottom: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+}
+.work-location{
+  font-style: italic;
+  margin-bottom: 6px;
+}
+.work .bold{
+  margin-bottom: -2px;
+}
+.contact i{
+  border: 1px solid #393a3c;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  padding: 6px;
+  position: relative;
+  top: 5px;
+}
+.contact hr{
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.con-name{
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.lang{
+  margin-left: 60px;
+}
+.languages{
+  display: grid;
+  grid-template-rows: repeat(3,1fr);
+  row-gap: 15px;
+  text-align: center;
+}
+.circle-para{
+  width: 78px;
+  height: 76px;
+  border-radius: 50%;
+  border: 6px solid transparent;
+  background-image: linear-gradient(#393a3c, #393a3c), 
+                  linear-gradient(53deg, #fcd85f 73%, #f1f2f4 57%);
+  background-origin: content-box, border-box, border-box, border-box, border-box;
+  background-clip: content-box, border-box, border-box, border-box, border-box;
+}
+.center{
+  /* color: red; */
+  position: relative;
+  top: 20px;
+}
+.lang1,.lang2,.lang3{
+  display: grid;
+  grid-template-columns: 40% 1fr;
+}
+.lang-para-data{
+  position: relative;
+  top: 15px;
+  right: 30px;
+}
+.hobbie{
+  display: grid;
+  grid-template-columns: 15% 1fr;
+  margin-bottom: 10px;
+}
+.hobbies i{
+  position: relative;
+  top: 5px;
+}
+.location{
+  margin-bottom: 30px;
+}
+.heading-lang,.heading-contact{
+  padding-top: 30px;
+}
+.work1,.work2{
+  margin-bottom: 20px;
+}
+.camera{
+  padding-bottom: 65px;
+}
+.work-para{
+  margin-bottom: 6px;
+}

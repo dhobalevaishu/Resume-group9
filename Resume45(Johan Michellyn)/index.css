@@ -1,0 +1,209 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Dancing+Script:wght@400;700&family=Fira+Sans:wght@300&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=Nunito&family=Open+Sans&family=Oswald&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@300;500;900&family=Source+Sans+Pro:wght@300;400&family=Ubuntu&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Audiowide&family=Barlow+Condensed&family=Bitter&family=Dancing+Script:wght@400;700&family=Fira+Sans:wght@300&family=Heebo&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=Nunito&family=Open+Sans&family=Oswald&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@300;500;900&family=Rubik:wght@300;400&family=Secular+One&family=Smooch+Sans&family=Source+Sans+Pro:wght@300;400&family=Ubuntu&family=Yellowtail&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Audiowide&family=Bitter&family=Dancing+Script:wght@400;700&family=Fira+Sans:wght@300&family=Heebo&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=Nunito&family=Open+Sans&family=Oswald&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@300;500;900&family=Rubik:wght@300;400&family=Secular+One&family=Smooch+Sans&family=Source+Sans+Pro:wght@300;400&family=Ubuntu&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Audiowide&family=Barlow+Condensed&family=Bitter&family=Dancing+Script:wght@400;700&family=Fira+Sans:wght@300&family=Heebo&family=Hind&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=Nunito&family=Open+Sans&family=Oswald&family=PT+Serif&family=Roboto+Serif:wght@300;400&family=Roboto:wght@300;500;900&family=Rubik:wght@300;400&family=Secular+One&family=Smooch+Sans&family=Source+Sans+Pro:wght@300;400&family=Ubuntu&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Arimo&family=Audiowide&family=Barlow+Condensed&family=Bitter&family=Dancing+Script:wght@400;700&family=Fira+Sans:wght@300&family=Heebo&family=Hind&family=Lato:wght@700&family=Libre+Franklin&family=Lora:ital@1&family=Mulish:ital,wght@0,200;0,500;1,300&family=Nunito&family=Open+Sans&family=Oswald&family=PT+Serif&family=Questrial&family=Roboto+Serif:wght@300;400&family=Roboto:wght@300;500;900&family=Rubik:wght@300;400&family=Secular+One&family=Smooch+Sans&family=Source+Sans+Pro:wght@300;400&family=Ubuntu&family=Yellowtail&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  width:750px; 
+  height:1075px;
+  margin: auto;
+  box-shadow: 0px 0px 7px 2px #ad9a6f;
+  display: grid;
+  grid-template-columns: 39% 1fr;
+  column-gap: 40px;
+  line-height: 22px;
+  font-family:PT serif;
+  font-size: 14px;
+  background-color: #fefefe;
+}
+.first-div{
+  color: #e2ccb4;
+  background-color: #96464c;
+  padding: 30px 28px 20px 45px;
+}
+.first-div hr{
+  border: 1px solid #e7c199;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+.second-div hr{
+  border: 1px solid #ad7e81;
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+.con,.location{
+  display: grid;
+  grid-template-columns: 10% 1fr;
+  column-gap: 8px;
+}
+.con-para{
+  position: relative;
+  bottom: 3.5px;
+}
+.con{
+  margin-bottom: 15px;
+}
+.contact i{
+  color: #e2ccb4;
+  font-size: 17px;
+}
+.progressbar{
+  width: 100%;
+  height: 6px;
+  background-color:#b67a68;
+  margin-bottom: 10px;
+}
+.fill{
+  background-color: #fdd0a6;
+  height: 100%;
+}
+.fill1{
+  width: 60%;
+}
+.fill2{
+  width: 80%;
+}
+.fill3{
+  width: 90%;
+}
+.fill4{
+  width: 68%;
+}
+.skill-name{
+  margin-bottom: 8px;
+}
+h3{
+  font-family: Barlow Condensed;
+  margin-top: 50px;
+  font-size: 18px;
+  letter-spacing: 3px;
+}
+.second-div{
+  padding-top: 60px;
+  padding-right: 40px;
+}
+.name{
+  font-size: 58px;
+  font-weight: 600;
+  color: #96464c;
+  margin-bottom: 25px;
+  font-family: Barlow Condensed;
+  letter-spacing: 1px;
+}
+.post{
+  font-family: Questrial;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: rgb(49, 48, 48);
+}
+.work-data{
+  display: grid;
+  grid-template-columns: 10% 1fr;
+  column-gap: 20px;
+}
+.edu-data{
+  display: grid;
+  grid-template-columns: 10% 1fr;
+  column-gap: 20px;
+}
+.work i{
+  border: 3px solid #96464c;
+  color: #96464c;
+  /* margin-top: 45px; */
+  border-radius: 50%;
+  padding: 7px 6px;
+  background-color: #fdd0a6;
+  position: relative;
+  right: 18px;
+}
+.work1,.work2,.edu1{
+  margin-bottom: 30px;
+}
+.bold{
+  font-family: Oswald;
+  font-weight: bold;
+  border-bottom: 1.5px solid rgb(197, 197, 197);
+  display: inline-block;
+  background-color: #fcfcfc;
+  margin-bottom: 5px;
+}
+.name-data{
+  font-family: Hind;
+  font-weight: 500;
+  margin-bottom: -10px;
+}
+.vl{
+  border-left: 2px solid #ad7e81;
+  height: 589px;
+  position: relative;
+  top: 50px;
+  left: 10px;
+}
+.vl2{
+  border-left: 2px solid #ad7e81;
+  height: 266px;
+  position: relative;
+  top: 50px;
+  left: 10px;
+}
+.point{
+  width: 10px;
+  height: 10px;
+  background-color: #fdd0a6;
+  border: 2px solid #96464c;
+  border-radius: 50%;
+  margin-left: 20px;
+  position: relative;
+  right: 72px;
+  top: 15px;
+}
+.box{
+  width: 90px;
+  height: 90px;
+  background-color: #96464c;
+  border: 3px dotted #fdd0a6;
+  padding: 6px;
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 45px;
+  transform: rotate(-45deg);
+}
+.design-para{
+  background-color: #fdd0a6;
+  width: 100%;
+  height: 100%;
+  color: #96464c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+.para{
+  transform: rotate(45deg);
+  margin: 118px -3px 100px 16px;
+  display: inline-block;
+}
+.j{
+  position: relative;
+  right: 33px;
+}
