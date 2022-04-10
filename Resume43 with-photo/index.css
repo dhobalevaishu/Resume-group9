@@ -9,8 +9,13 @@
   margin: 0;
   box-sizing: border-box;
 }
-.container{
+body{
+  margin: auto;
+  position: relative;
   width: 750px;
+}
+.container{
+  width: 100%;
   margin: auto;
   box-shadow: 0px 0px 7px 2px #ad9a6f;
   line-height: 22px;
@@ -107,12 +112,11 @@ li{
   grid-template-columns: repeat(2,1fr);
   column-gap: 40px;
 }
-.edu1,.work1,.work2{
+.edu1,.edu2,.work1,.work2{
   margin-bottom: 30px;
   line-height: 26px;
 }
 .edu2{
-  margin-bottom: 70px;
   line-height: 26px;
 }
 .year-data{
@@ -137,24 +141,11 @@ li{
   position: relative;
   top: 53px;
 }
-.instagram,.facebook{
-  display: grid;
-  grid-template-columns: 10% 1fr;
-}
-.facebook{
-  margin-bottom: 10px;
-}
-.education,.social{
+.education{
   padding-left: 60px;
 }
 .work{
   padding-right: 60px;
-}
-.social i{
-  color: #e23235;
-  position: relative;
-  top: 4px;
-  font-size: 17px;
 }
 .year{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -265,4 +256,88 @@ ul li::before {
 } */
 .data2,.data3{
   margin-left: -50px;
+}
+.insta,.Twitter,.facebook{
+  display: grid;
+  grid-template-columns:8% 1fr;
+  column-gap: 10px;
+}
+.social i{
+  font-size: 18px;
+  position: relative;
+  top: -10px;
+}
+.social{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 35px;
+}
+.insta,.facebook{
+  margin-bottom: 15px;
+}
+.social i{
+  position: relative;
+  top: 2px;
+  color: #df585a;
+}
+.insta{
+  margin-top: 20px;
+}
+.insta,.facebook{
+  margin-bottom: 15px;
+}
+.progressbar{
+  width: 87%;
+  height: 8px;
+  background-color: #ddd3d4;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.fill{
+  height: 100%;
+  background-color: #df585a;
+}
+.fill1{
+  width: 70%;
+}
+.fill2{
+  width:90%;
+}
+.fill3{
+  width: 70%;
+}
+.fill4{
+  width: 60%;
+}
+.fill5{
+  width: 90%;
+}
+.fill6{
+  width: 80%;
+}
+.skills,.lang{
+  padding: 0px 0px 0px 60px;
+}
+.p-link{
+  color: rgb(103, 103, 218);
+  margin-bottom: 10px;
+}
+.certi-para1{
+  margin-bottom: 25px;
+}
+.date{
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.projects,.certi{
+  position: relative;
+  bottom: 15px;
+}
+.references{
+  position: relative;
+  bottom: 5px;
+}
+.projects,.references,.certi,.skills,.lang{
+  display: none;
 }

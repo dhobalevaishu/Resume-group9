@@ -30,7 +30,7 @@ body{
   margin-left: 2px;
   margin-top: 50px;
 }
-.header-data,.education,.about,.skills,.lang{
+.header-data,.education,.about,.skills,.lang,.projects{
   margin-left: 80px;
 }
 .fname,.lname{
@@ -59,7 +59,6 @@ h3{
   background-color: #585fa3;
   padding: 70px;
   padding-top: 80px;
-  padding-bottom: 8px;
   color: #f6f6f6;
 }
 .back-div{
@@ -76,11 +75,9 @@ h3{
   position: relative;
   top: 4px;
 }
-.certi,.work,.social,.references,.projects{
-  padding-left: 50px;
-}
-.certi{
+.certi,.work,.social,.references{
   background-color: #f6f6f6;
+  padding-left: 50px;
 }
 .edu1,.edu2,.work1{
   margin-bottom: 15px;
@@ -157,6 +154,10 @@ img{
   font-size: 14px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.work{
+  position: relative;
+  bottom: 25px;
+}
 .lang{
   position: relative;
   bottom: 40px;
@@ -184,10 +185,22 @@ img{
 .insta,.facebook{
   margin-bottom: 15px;
 }
+.social{
+  position: relative;
+  bottom:30px;
+}
 .p-link{
   color: rgb(103, 103, 218);
   margin-bottom: 10px;
 }
-.lang,.references{
+.projects{
+  position: relative;
+  bottom: 40px;
+}
+.references{
+  position: relative;
+  bottom: 20px;
+}
+.lang,.social,.projects,.references{
   display: none;
 }

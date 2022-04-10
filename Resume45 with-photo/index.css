@@ -261,6 +261,16 @@ h3{
   position: relative;
   bottom: 13px;
 }
+.img{
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
 .projects,.social,.certi,.references{
   display: none;
 }

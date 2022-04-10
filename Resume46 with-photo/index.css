@@ -22,7 +22,7 @@ body{
   background-color: #ebe8e8;
   /* color: #3e3c3f  ; */
 }
-.education,.work,.skills,.achievement,.references-data,.second-one,.lang-data,.certi-data,.project-data{
+.second-two,.education,.work,.skills,.achievement,.references-data,.second-one,.lang-data,.certi-data,.project-data{
   display: grid;
   grid-template-columns: 32% 1fr;
   column-gap: 10px;

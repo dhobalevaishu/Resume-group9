@@ -6,8 +6,13 @@
   margin: 0;
   box-sizing: border-box;
 }
-.container{
+body{
+  margin: auto;
+  position: relative;
   width: 820px;
+}
+.container{
+  width: 100%;
   margin: auto;
   box-shadow: 0px 0px 7px 2px #ad9a6f;
   line-height: 22px;
@@ -203,4 +208,62 @@ h3{
 }
 .work-para{
   margin-bottom: 6px;
+}
+.insta,.Twitter,.facebook{
+  display: grid;
+  grid-template-columns:8% 1fr;
+  column-gap: 10px;
+}
+.social i{
+  font-size: 18px;
+  position: relative;
+  top: -10px;
+}
+.social{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px 70px;
+  padding-right: 10px;
+}
+.insta,.facebook{
+  margin-bottom: 15px;
+}
+.social i{
+  position: relative;
+  top: 2px;
+}
+.insta{
+  margin-top: 20px;
+}
+.insta,.facebook{
+  margin-bottom: 15px;
+}
+.certi{
+  padding: 20px 70px;
+  padding-right: 10px;
+}
+.balck-hr{
+  margin-bottom: -20px;
+}
+.certi-para1{
+  margin-bottom: 20px;
+}
+.date{
+  font-weight: bold;
+  font-size: 14px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.references{
+  padding: 20px 70px;
+  padding-right: 10px;
+}
+.p-link{
+  color: rgb(103, 103, 218);
+  margin-bottom: 10px;
+}
+.project1{
+  margin-bottom: 20px;
+}
+.projects,.certi,.references{
+  display: none;
 }
